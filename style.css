@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.title-main {
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-size: 100px;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.entery {
+    background-image: url(BackPlane.jpeg);
+
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+ 
+    height: 100vh;
+    width: 100vw;
+    
+    
+}
+
+
+
+
+.container {
+
+
+   
+    width: 70%;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    position: absolute;
+     
+
+    padding: 20px;
+
+    background: rgba(255, 255, 255, 0.15); 
+    backdrop-filter: blur(10px);         
+    -webkit-backdrop-filter: blur(10px);  
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    margin-top: 50px;
+    transition: all 0.3s ease;
+    
+}
+
+.container:hover {
+      background: rgba(255, 255, 255, 0.3);
+        border-bottom: 1px solid rgba(255,255,255,0.4);
+        transition: all 0.3s ease;
+          
+}
+
+ul {
+    width: 100%;
+        list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+
+nav {
+    width: 100%;
+}
+
+.btn a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+
+    border: 2px solid white;
+    border-radius: 30px;
+
+    transition: 0.3s ease;
+
+
+}
+
+.btn a:hover {
+     background-color: #4A6984;
+
+}
+
+
+.btn1 {
+     position: absolute;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     align-self: flex-end;
+     margin-bottom: 60px;
+     padding: 10px 20px;
+     background: transparent;
+     border: 2px solid white;
+     color: white;
+     border-radius: 30px;
+     font-weight: bolder;
+     transition: all 0.7s ease;
+     
+  
+}
+
+.btn1:hover {
+   
+     background-color:  #4A6984;
+     transform: scale(1.2);
+}
+
+.S1 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(122, 64, 16);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;  
+    transition: all 7s ease;
+    
+    
+    
+}
+
+.S1:hover {
+     top: -650px;
+     transition: all 7s ease;
+}
+
+.title1 {
+   font-weight: bold;
+   font-size: 100px;
+    
+}
