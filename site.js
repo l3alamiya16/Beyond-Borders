@@ -61,3 +61,17 @@ maldives.addEventListener( 'mouseenter', function() {
     description.style.transition = "1s ease"
     
 })
+
+/*----------------------------------------------click-----------------------------------------------------------------*/
+
+paris.addEventListener( 'click', function() {
+   window.location.href = 'paris.html'
+})
+
+roma.addEventListener( 'click', function() {
+   window.location.href = 'roma.html'
+})
+
+maldives.addEventListener( 'click', function() {
+   window.location.href = 'maldives.html'
+})
