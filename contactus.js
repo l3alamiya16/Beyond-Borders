@@ -9,5 +9,5 @@ sub.addEventListener('click', function() {
 
 btn.addEventListener('click', function() {
     div.style.visibility = 'hidden';
-    window.location.href = 'mainpage.html'
+    window.location.href = 'index.html'
 })
